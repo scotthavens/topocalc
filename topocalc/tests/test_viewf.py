@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import unittest
-from sys import platform
+# from sys import platform
 
 import numpy as np
 

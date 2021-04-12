@@ -51,8 +51,8 @@ jobs:
   include:
     # test stage
     - <<: *unittest
-      python: 3.5
-      env: TOXENV=py35
+      python: 3.9
+      env: TOXENV=py39
       addons:
         apt:
           packages:
